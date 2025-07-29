@@ -37,7 +37,7 @@ from google.colab import files
 
 ```python
 uploaded = files.upload()
-audio_file_name = list(uploaded.keys())
+audio_file_name = list(uploaded.keys())[0]
 ```
 
 ### Шаг 4: Получение вектора
